@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Banner cabeçalho */
+header {
+  background: url("https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1350&q=80") no-repeat center/cover;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+header h1 {
+  font-size: 2.5em;
+  background: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+nav {
+  background: #0077b6;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffdd00;
+}
+
+/* Conteúdo */
+main {
+  margin: 40px 15%; /* 15% margens laterais */
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #0077b6;
+  margin-bottom: 15px;
+}
+
+section p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.imagem {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.imagem img {
+  max-width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Rodapé */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.95em;
+}
